@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <AssemblyName>Torty.Web.Apps.ObsNightBotOverlay.BusinessLayers</AssemblyName>
+        <RootNamespace>Torty.Web.Apps.ObsNightBotOverlay.BusinessLayers</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BusinessEntities\ObsNightBotOverlay.BusinessEntities.csproj" />
+      <ProjectReference Include="..\Repositories\ObsNightBotOverlay.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

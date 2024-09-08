@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServer", "WebServer", "{104AD450-DA22-4FDC-A05F-C95B83FE27DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsNightBotOverlay.WebServer", "Source\WebServer\ObsNightBotOverlay.WebServer.csproj", "{70447F85-E3CD-48C3-9394-773D52A14BED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayers", "BusinessLayers", "{007012DA-92AC-40AF-8D04-7AA8DDCD4D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsNightBotOverlay.BusinessLayers", "Source\BusinessLayers\ObsNightBotOverlay.BusinessLayers.csproj", "{42D00D2A-946E-48D6-B0E8-538B13FBECB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0046C4FC-74D7-42E0-8630-CFFC1200BB86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsNightBotOverlay.Domain", "Source\Repositories\ObsNightBotOverlay.Domain.csproj", "{C518F9C5-6F73-4A03-8C5B-6E1B8CF0B70B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{348B4ACB-5692-46C4-A996-58D36FDF6135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsNightBotOverlay.Infrastructure", "Source\Infrastructure\ObsNightBotOverlay.Infrastructure.csproj", "{72747741-1FE9-4529-A917-1165FDB2B90A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsNightBotOverlay.BusinessModels", "Source\BusinessModels\ObsNightBotOverlay.BusinessModels.csproj", "{98564C18-EC17-4662-98BD-BB1FD233E6B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsNightBotOverlay.BusinessEntities", "Source\BusinessEntities\ObsNightBotOverlay.BusinessEntities.csproj", "{88DA3D8A-9775-4863-AA54-640321AA169B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70447F85-E3CD-48C3-9394-773D52A14BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70447F85-E3CD-48C3-9394-773D52A14BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70447F85-E3CD-48C3-9394-773D52A14BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70447F85-E3CD-48C3-9394-773D52A14BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D00D2A-946E-48D6-B0E8-538B13FBECB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D00D2A-946E-48D6-B0E8-538B13FBECB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D00D2A-946E-48D6-B0E8-538B13FBECB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D00D2A-946E-48D6-B0E8-538B13FBECB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C518F9C5-6F73-4A03-8C5B-6E1B8CF0B70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C518F9C5-6F73-4A03-8C5B-6E1B8CF0B70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C518F9C5-6F73-4A03-8C5B-6E1B8CF0B70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C518F9C5-6F73-4A03-8C5B-6E1B8CF0B70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72747741-1FE9-4529-A917-1165FDB2B90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72747741-1FE9-4529-A917-1165FDB2B90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72747741-1FE9-4529-A917-1165FDB2B90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72747741-1FE9-4529-A917-1165FDB2B90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98564C18-EC17-4662-98BD-BB1FD233E6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98564C18-EC17-4662-98BD-BB1FD233E6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98564C18-EC17-4662-98BD-BB1FD233E6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98564C18-EC17-4662-98BD-BB1FD233E6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DA3D8A-9775-4863-AA54-640321AA169B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DA3D8A-9775-4863-AA54-640321AA169B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DA3D8A-9775-4863-AA54-640321AA169B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DA3D8A-9775-4863-AA54-640321AA169B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70447F85-E3CD-48C3-9394-773D52A14BED} = {104AD450-DA22-4FDC-A05F-C95B83FE27DC}
+		{42D00D2A-946E-48D6-B0E8-538B13FBECB7} = {007012DA-92AC-40AF-8D04-7AA8DDCD4D34}
+		{C518F9C5-6F73-4A03-8C5B-6E1B8CF0B70B} = {0046C4FC-74D7-42E0-8630-CFFC1200BB86}
+		{72747741-1FE9-4529-A917-1165FDB2B90A} = {348B4ACB-5692-46C4-A996-58D36FDF6135}
+		{98564C18-EC17-4662-98BD-BB1FD233E6B7} = {104AD450-DA22-4FDC-A05F-C95B83FE27DC}
+		{88DA3D8A-9775-4863-AA54-640321AA169B} = {007012DA-92AC-40AF-8D04-7AA8DDCD4D34}
+	EndGlobalSection
+EndGlobal

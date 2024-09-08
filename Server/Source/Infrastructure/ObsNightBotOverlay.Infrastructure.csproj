@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <AssemblyName>Torty.Web.Apps.ObsNightBotOverlay.Infrastructure</AssemblyName>
+        <RootNamespace>Torty.Web.Apps.ObsNightBotOverlay.Infrastructure</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
+      <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.0.2" />
+    </ItemGroup>
+
+</Project>
