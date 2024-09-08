@@ -9,4 +9,4 @@ If your hosting methodology of choice differs you would need to fork this and mo
 
 Web App is an Angular app that can be run directly out of the index.html file or via a hosting solution of your choice.
 
-Web App source code is configured such that it makes web requests to the backend via a fixed URL configuration that is NOT committed to VCS. You will need to provide your own backend endpoints to be used during runtime based on how/where you host the backend API server code.
+Web App source code is configured such that it makes web requests to the backend via a fixed URL configuration that is NOT committed to VCS. You will need to provide your own backend FQDN to be used during runtime based on how/where you host the backend API server code.
